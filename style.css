@@ -1,0 +1,137 @@
+body {
+background-color:  rgb(33, 159, 148);
+color: black;
+font-family: font-family: 'Source Serif 4', sans-serif;;
+font-size: 17px;
+}
+
+h1, h2, h3 {
+	font-family: 'Dancing Script', cursive;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+h1 {
+	color: rgb(33, 159, 148);
+	font-weight: bolder;
+	font-size: 50px;
+}
+
+
+img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+h2 {
+	color:  rgb(193, 222, 174);
+	font-size: 30px;
+	font-weight: bolder;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: color: rgb(193, 222, 174);
+	font-weight: bolder;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+a:hover {
+	color: rgb(232, 232, 166);
+}
+
+p {
+margin-bottom: 40px;
+}
+
+div {
+	background: rgb(193, 222, 174); 
+padding: 60px;  
+margin: 50px 0px 40px;                           
+border-radius: 15px;   
+box-shadow: 0 10px 30px rgba(0,0,0,.1)
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+@media (max-width:  500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width:  760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 60px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	border-radius: 7px; 
+	text-align: center;
+}
+
+.btn-green {
+	background-color: rgb(193, 222, 174);
+	color: whitesmoke;
+	padding: 15px 20px;
+	border-radius: 8px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}  
+  
+.list-inline li{
+display: inline;
+padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: rgb(33, 159, 148);
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: rgb(232, 232, 166) ;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+#association p {
+	margin-bottom: 40px;
+	margin-top: 4Opx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
